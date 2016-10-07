@@ -1,13 +1,12 @@
 // A demo for functional programming in JavaScript
+// Solving for: https://github.com/fs-webdev/skill-building-program/blob/master/badges-active/javascript/_micro_functional-js.md
 
 
 /* Purity, side-effects: Function returns a value or a function without affecting any other external variables or such sort of thing */
 
 // NO
 // var a = 1;
-// function add(b){
-//   return a + b;
-// }
+// const add = (b) => a + b;
 
 // YES
 const add = ( a, b ) => a + b;
