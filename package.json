@@ -1,0 +1,21 @@
+{
+  "name": "func",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "esw"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.7.1",
+    "eslint-config-cleanjs": "^4.0.0",
+    "eslint-plugin-better": "^0.1.5",
+    "eslint-plugin-fp": "^2.2.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-watch": "^2.1.14"
+  }
+}
